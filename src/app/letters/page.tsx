@@ -55,6 +55,10 @@ export default function LettersPage() {
 
   return (
     <div className="flex-1">
+      <audio autoPlay loop>
+        <source src="https://github.com/usertermed/archives/raw/refs/heads/main/mp3/taia777.mp3" type="audio/mpeg"/>
+      Your browser does not support the audio element.
+      </audio>
       <main className="container mx-auto p-4 py-12">
         <div className="text-center">
           <h1 className="text-4xl font-headline tracking-tight text-primary">
