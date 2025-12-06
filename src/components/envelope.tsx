@@ -50,9 +50,9 @@ export function Envelope({ message, index }: EnvelopeProps) {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>a message from the past</DialogTitle>
+          <DialogTitle>a letter</DialogTitle>
           <DialogDescription>
-            sent on {format(createdAtDate, 'ppp')}
+            timed {format(createdAtDate, 'ppp')}
           </DialogDescription>
         </DialogHeader>
         <div className="py-4 whitespace-pre-wrap break-words text-sm text-foreground/90 font-serif">

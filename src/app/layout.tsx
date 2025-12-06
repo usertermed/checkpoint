@@ -7,7 +7,7 @@ import { FirebaseClientProvider } from '@/firebase/client-provider';
 
 export const metadata: Metadata = {
   title: 'internet checkpoint',
-  description: 'leave a message for the future',
+  description: 'leave a message',
 };
 
 export default function RootLayout({

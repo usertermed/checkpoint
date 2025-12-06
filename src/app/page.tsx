@@ -10,7 +10,7 @@ export default function Home() {
             internet checkpoint
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            leave a message for the future. it will be waiting for you.
+            leave a message
           </p>
         </div>
         <Card className="w-full max-w-lg mt-12">

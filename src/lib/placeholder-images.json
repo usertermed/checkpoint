@@ -2,33 +2,83 @@
   "envelopes": [
     {
       "src": "https://picsum.photos/seed/envelope1/200/150",
-      "alt": "A vintage-style envelope with a wax seal",
+      "alt": "",
       "hint": "vintage envelope"
     },
     {
       "src": "https://picsum.photos/seed/envelope2/200/150",
-      "alt": "An old, weathered envelope",
-      "hint": "old envelope"
+      "alt": "",
+      "hint": ""
     },
     {
       "src": "https://picsum.photos/seed/envelope3/200/150",
-      "alt": "A stack of old letters tied with a ribbon",
-      "hint": "old letters"
+      "alt": "",
+      "hint": ""
     },
     {
       "src": "https://picsum.photos/seed/envelope4/200/150",
-      "alt": "An airmail envelope with vintage stamps",
-      "hint": "airmail envelope"
+      "alt": "",
+      "hint": ""
     },
     {
       "src": "https://picsum.photos/seed/envelope5/200/150",
-      "alt": "A yellowed parchment envelope",
-      "hint": "parchment envelope"
+      "alt": "",
+      "hint": ""
     },
     {
       "src": "https://picsum.photos/seed/envelope6/200/150",
-      "alt": "An elegant handwritten letter",
-      "hint": "handwritten letter"
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope7/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope8/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope9/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope10/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope11/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope12/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope13/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope14/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope15/200/150",
+      "alt": "",
+      "hint": ""
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope16/200/150",
+      "alt": "",
+      "hint": ""
     }
   ]
 }
