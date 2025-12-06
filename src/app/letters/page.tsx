@@ -65,7 +65,7 @@ export default function LettersPage() {
             letters
           </h1>
           <p className="mt-2 text-muted-foreground">
-            messages from the past. click a letter to read.
+            click to read
           </p>
         </div>
 

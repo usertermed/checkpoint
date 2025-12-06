@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <script src="https://kit.fontawesome.com/f08a128311.js" crossOrigin="anonymous"></script>
+      </head>
       <body className={cn('min-h-screen font-body antialiased')}>
         <FirebaseClientProvider>
           <Header />

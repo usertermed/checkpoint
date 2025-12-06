@@ -3,7 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function Home() {
   return (
-    <div className="flex-1">
+    <div className="flex-1" suppressHydrationWarning>
       <main className="container mx-auto flex flex-col items-center justify-center min-h-[calc(100vh-3.5rem)] p-4">
         <div className="w-full max-w-2xl text-center">
           <h1 className="text-4xl font-headline tracking-tight sm:text-5xl md:text-6xl text-primary">
@@ -18,6 +18,7 @@ export default function Home() {
             <MessageForm />
           </CardContent>
         </Card>
+        <a href="https://usertermed.github.io/" title="A usertermed project"><i className="fa-solid fa-ban fa-2x fa-spin" style={{marginTop: 30, color: "#A7B4BC"}}></i></a>
       </main>
     </div>
   );
