@@ -1,0 +1,53 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /******************************************************************************
+     *                                                                            *
+     *                          HELPER FUNCTIONS                                  *
+     *                                                                            *
+     ******************************************************************************/
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    function isResourceOwner() {
+      return isSignedIn() && request.auth.uid == resource.data.userId;
+    }
+
+    function hasValidCreateData() {
+      let incomingData = request.resource.data;
+      return incomingData.userId == request.auth.uid
+          && incomingData.content is string
+          && incomingData.content.size() > 0
+          && incomingData.createdAt == request.time;
+    }
+
+    function hasValidUpdateData() {
+        return request.resource.data.userId == resource.data.userId;
+    }
+
+    /******************************************************************************
+     *                                                                            *
+     *                            COLLECTION RULES                                *
+     *                                                                            *
+     ******************************************************************************/
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    match /messages/{messageId} {
+      allow list, get: if true;
+      allow create: if isSignedIn() && hasValidCreateData();
+      allow update: if isResourceOwner() && hasValidUpdateData();
+      allow delete: if isResourceOwner();
+    }
+  }
+}

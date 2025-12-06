@@ -1,0 +1,34 @@
+{
+  "envelopes": [
+    {
+      "src": "https://picsum.photos/seed/envelope1/200/150",
+      "alt": "A vintage-style envelope with a wax seal",
+      "hint": "vintage envelope"
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope2/200/150",
+      "alt": "An old, weathered envelope",
+      "hint": "old envelope"
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope3/200/150",
+      "alt": "A stack of old letters tied with a ribbon",
+      "hint": "old letters"
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope4/200/150",
+      "alt": "An airmail envelope with vintage stamps",
+      "hint": "airmail envelope"
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope5/200/150",
+      "alt": "A yellowed parchment envelope",
+      "hint": "parchment envelope"
+    },
+    {
+      "src": "https://picsum.photos/seed/envelope6/200/150",
+      "alt": "An elegant handwritten letter",
+      "hint": "handwritten letter"
+    }
+  ]
+}
